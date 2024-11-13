@@ -147,3 +147,9 @@ a {
 .sea {
     color: var(--sea);
 }
+
+@media (max-width: 1000px) {
+    .vertical-text {
+        display: none;
+    }
+}
