@@ -142,9 +142,33 @@ footer {
     border-radius: 4px;
 }
 
+.tagged-2 {
+    background-color: var(--blue);
+    color: var(--light);
+    padding: 1px;
+    border-radius: 4px;
+}
+
+.tagged-3 {
+    background-color: var(--pink);
+    color: var(--light);
+    padding: 1px;
+    border-radius: 4px;
+}
+
 .tagged:hover {
     background-color: var(--dark);
     color: var(--sea);
+}
+
+.tagged-2:hover {
+    background-color: var(--dark);
+    color: var(--blue);
+}
+
+.tagged-3:hover {
+    background-color: var(--dark);
+    color: var(--pink);
 }
 
 a {
