@@ -68,7 +68,7 @@ body {
     transform: scale(1.1);
 }
 
-.projects {
+.menu {
     position: relative;
     top: 300px;
     animation: focus-in-contract 1s linear;
@@ -76,7 +76,50 @@ body {
     margin-bottom: 50px;
 }
 
+.content, .menu {
+    text-align: center;
+}
+
+.menu {
+    margin-bottom: 0;
+}
+
 .projects .projects-text {
+    text-align: center;
+}
+
+.projects {
+    display: none;
+}
+
+.content-section {
+    display: none; /* Hide all sections initially */
+    position: relative;
+    top: 350px;
+    margin-bottom: 400px;
+}
+
+#content-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 65%;
+}
+
+.center {
+    text-align: center;
+}
+
+select {
+    background-color: var(--sea);
+    color: var(--dark);
+    font-family: inherit;
+    font-size: 2em;
     text-align: center;
 }
 

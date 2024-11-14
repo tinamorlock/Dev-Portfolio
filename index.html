@@ -9,7 +9,6 @@
 <body>
 
 </body>
-</html>
     <head>
         <title>Tina Morlock: Full Stack Developer in Oklahoma</title>
         <link rel="stylesheet" href="morlock.css">
@@ -53,9 +52,23 @@
             </a>
         </div>
     </header>
-    <div class="projects">
-        <div class="projects-text">
-            <p><strong>2024</strong></p>
+    <div class="menu">
+        <label for="section-select"></label>
+        <select id="section-select">
+            <option>Select</option>
+            <option value="resume">Resume</option>
+            <option value="projects">Projects</option>
+            <option value="about">About</option>
+            <!-- Add more options as needed -->
+        </select>
+    </div>
+    <!-- Content sections to show/hide -->
+    <div id="content-display">
+        <div id="resume" class="content-section">
+            <p>Your resume content goes here...</p>
+        </div>
+        <div id="projects" class="content-section">
+            <p class="center"><strong>2024</strong></p>
             <p><span class="tagged">[web / database / C# / .NET]</span> <a href="https://github.com/tinamorlock/bookspeak" target="_blank" title="click for repository">Bookspeak</a> — social media platform for authors</p>
             <p><span class="tagged">[web / CSS]</span> <a href="https://tinamorlock.github.io/Typographix/" target="_blank" title="click for website">Typographix</a> — minimalist landing page with animated text and icons</p>
             <p><span class="tagged">[web / CSS / JavaScript]</span> <a href="https://tinamorlock.github.io/Freelance-Database/" target="_blank" title="click for website">Freelance Database</a> — saves client info to local storage</p>
@@ -65,16 +78,20 @@
             <p><span class="tagged">[web / HTML / CSS / JavaScript]</span> <a href="https://tinamorlock.github.io/HTML-Generator/" target="_blank" title="click for website">HTML Generator</a> — automatically generates HTML code</p>
             <p><span class="tagged">[web / HTML / CSS / JavaScript]</span> <a href="https://github.com/tinamorlock/BlushBeauty" target="_blank" title="click for repository">Blush Beauty</a>— custom-designed salon website with gallery</p>
             <p><span class="tagged">[web / HTML / CSS / JavaScript]</span> <a href="https://tinamorlock.github.io/BackgroundGenerator/" target="_blank" title="click for website">Background Generator</a> — generates CSS code for background</p>
-            <p><strong>2023</strong></p>
+            <p class="center"><strong>2023</strong></p>
             <p><span class="tagged">[web / Entity Framework / C# / ASP.NET]</span> <a href="https://github.com/tinamorlock/TheatreCMS3" target="_blank" title="click for repository">Theatre Vertigo</a> — custom CMS with admin panel</p>
             <p><span class="tagged">[web / database / Python / Django]</span> <a href="https://github.com/tinamorlock/BookChallenge" target="_blank" title="click for repository">BookChallenge</a> — collection of tools for book lovers</p>
         </div>
-
+        <div id="about" class="content-section">
+            <p>My name is Tina Morlock. I'm a full-stack web developer in the Oklahoma City area, with a background
+             in writing, editing, and web content. My hobbies and passions include reading fiction, playing pinball,
+             and researching true crime.</p>
+        </div>
     </div>
         <footer>
             Copyright &copy; Tina Morlock. All rights reserved.
         </footer>
-
+    <script src="morlock.js"></script>
     <script src="https://kit.fontawesome.com/63c7ba5d25.js" crossorigin="anonymous"></script>
     </body>
 </html>
