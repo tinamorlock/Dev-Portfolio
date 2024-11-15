@@ -220,3 +220,13 @@ a {
         display: none;
     }
 }
+
+@media (max-width: 475px) {
+    .vertical-text {
+        display: none;
+    }
+
+    .social-media-icons a {
+        display: none;
+    }
+}
